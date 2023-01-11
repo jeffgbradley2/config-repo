@@ -1,2 +1,14 @@
+spring:
+    datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:5432/catalogdb
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 2000
+  sql:
+    init:
+      mode: always
+      
 catalog:
   greeting: you are here and here and here
